@@ -1,0 +1,17 @@
+.new-btn {
+  background-color: blue;
+  color: white;
+  padding: 1em 1.5em;
+  cursor: pointer;
+  width: 5%;
+  text-align: center;
+  border-radius: 2em;
+}
+
+.new-btn:hover {
+  background-color: lightblue;
+}
+
+.new-btn:active {
+  background-color: darkblue;
+}
