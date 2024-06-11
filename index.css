@@ -1,17 +1,30 @@
+.button-container {
+  display: flex;
+  gap: 2em;
+}
+
 .new-btn {
   background-color: blue;
   color: white;
-  padding: 1em 1.5em;
+  padding: 1em 3em;
   cursor: pointer;
-  width: 5%;
+
   text-align: center;
   border-radius: 2em;
 }
 
 .new-btn:hover {
-  background-color: lightblue;
+  background-color: green;
 }
 
 .new-btn:active {
   background-color: darkblue;
+}
+
+.new-btn.active {
+  background-color: green;
+}
+
+.activated {
+  cursor: pointer;
 }
