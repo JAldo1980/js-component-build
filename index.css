@@ -1,4 +1,9 @@
-.button-container {
+.package-container {
+  display: flex;
+  gap: 2em;
+}
+
+.plan-container {
   display: flex;
   gap: 2em;
 }
@@ -27,4 +32,8 @@
 
 .activated {
   cursor: pointer;
+}
+
+.notActivated {
+  cursor: not-allowed;
 }
