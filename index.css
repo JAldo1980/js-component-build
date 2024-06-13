@@ -1,9 +1,6 @@
-.package-container {
-  display: flex;
-  gap: 2em;
-}
-
-.plan-container {
+.package-container,
+.plan-container,
+.hosting-container {
   display: flex;
   gap: 2em;
 }
